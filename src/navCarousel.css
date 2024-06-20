@@ -1,0 +1,18 @@
+.navCont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recsRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: smaller;
+    width: 80%;
+}
+
+.navItem {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #294170;
+}

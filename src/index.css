@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background: #294170;
+  width: inherit;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.FormContainer {
+  background: white;
+  width: 65vw;
+  height: 55vh;
+  margin: auto;
+  border-radius: 2%;
+  padding: 10px;
+}
+
+.FragmentContent {
+  display: inline-block;
+  height: 41vh;
+}
+
+.buttonPanel {
+  display: flex;
+  justify-content: right;
+  margin-right: 2rem;
+}
+
+.backButton {
+  background: white;
+  border: 1px solid #294170;
+  border-radius: 25%/50%;
+  color: #294170;
+  margin: 5px;
+  padding:5px 20px;
+}
+
+.nextButton {
+  background: white;
+  border: 1px solid #294170;
+  border-radius: 25%/50%;
+  color: #294170;
+  margin: 5px;
+  padding:5px 20px;
+}
+
+.exitButton{
+  background: white;
+  border: 1px solid #294170;
+  border-radius: 25%/50%;
+  color: #294170;
+  margin: 5px;
+  padding:5px 20px;
+}
+
+.gtsCont {
+  display: flex;
+  justify-content: right;
+  margin-top: 1rem;
+}
+
+.gtsButton {
+  border: none;
+  color: #294170;
+  background: white;
+  margin-right: 2rem;
+  font-size: small;
+}
